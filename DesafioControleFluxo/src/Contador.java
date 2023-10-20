@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.sql.SQLException;
 import java.util.InputMismatchException;
 
 public class Contador {
@@ -13,7 +12,7 @@ public class Contador {
 			System.out.println("Digite o segundo parâmetro");
 			int parametroDois = terminal.nextInt();
 
-			System.out.println("");	
+			System.out.println("");
 		
 			//chamando o método contendo a lógica de contagem
 			contar(parametroUm, parametroDois);
